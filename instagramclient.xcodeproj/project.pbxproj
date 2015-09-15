@@ -14,6 +14,7 @@
 		F9D60C291BA7D5EB009A18DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9D60C281BA7D5EB009A18DE /* Images.xcassets */; };
 		F9D60C2C1BA7D5EB009A18DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9D60C2A1BA7D5EB009A18DE /* LaunchScreen.xib */; };
 		F9D60C381BA7D5EB009A18DE /* instagramclientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D60C371BA7D5EB009A18DE /* instagramclientTests.m */; };
+		F9F892281BA7D7DF00CDF84D /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9F892271BA7D7DF00CDF84D /* PhotosViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		F9D60C311BA7D5EB009A18DE /* instagramclientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = instagramclientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9D60C361BA7D5EB009A18DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9D60C371BA7D5EB009A18DE /* instagramclientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = instagramclientTests.m; sourceTree = "<group>"; };
+		F9F892261BA7D7DF00CDF84D /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		F9F892271BA7D7DF00CDF84D /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,8 @@
 				F9D60C281BA7D5EB009A18DE /* Images.xcassets */,
 				F9D60C2A1BA7D5EB009A18DE /* LaunchScreen.xib */,
 				F9D60C1B1BA7D5EB009A18DE /* Supporting Files */,
+				F9F892261BA7D7DF00CDF84D /* PhotosViewController.h */,
+				F9F892271BA7D7DF00CDF84D /* PhotosViewController.m */,
 			);
 			path = instagramclient;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9D60C211BA7D5EB009A18DE /* AppDelegate.m in Sources */,
+				F9F892281BA7D7DF00CDF84D /* PhotosViewController.m in Sources */,
 				F9D60C1E1BA7D5EB009A18DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
