@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface PhotosViewController : UIViewController
-
+    @property (nonatomic, retain) NSDictionary *response;
 @end

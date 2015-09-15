@@ -19,9 +19,10 @@
     NSURL *url = [NSURL URLWithString:@"https://api.instagram.com/v1/media/popular?client_id=b593c51f00044f00b41b280a1178d89e"];
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:url];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
-        NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+
+        self.response = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
         
-        NSLog(@"response: %@", responseDictionary);
+        NSLog(@"response: %@", self.response);
     }];
     
     [super viewDidLoad];
